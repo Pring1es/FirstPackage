@@ -3,7 +3,9 @@
 	"version": "1.0.0",
 	"main": "./lib/index.js",
 	"types": "./lib/index.d.ts",
-	"files": ["./lib/**/*"],
+	"files": [
+		"./lib/**/*"
+	],
 	"scripts": {
 		"clean": "del .lib/*",
 		"build": "npm run clean && tsc"
@@ -11,9 +13,9 @@
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
-	"description": "",
 	"devDependencies": {
 		"del-cli": "^6.0.0",
 		"typescript": "^5.7.2"
-	}
+	},
+	"description": ""
 }
